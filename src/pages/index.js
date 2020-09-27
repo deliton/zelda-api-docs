@@ -15,7 +15,7 @@ function Home() {
       description="An open source RESTful API containing data about The Legend of Zelda series">
       <main className={clsx('hero hero--primary', styles.heroBanner)}>
         <div className="container">
-          <img className={clsx('logo', styles.apiLogo)} src='../../static/img/zelda-opensource-logo.png'/>
+          <img className={clsx('logo', styles.apiLogo)} src='https://user-images.githubusercontent.com/47995046/94375902-3ddbdb80-00ed-11eb-9acf-aa6a114af01b.png'/>
           <div className={styles.buttons}>
             <Link
               className={clsx(
