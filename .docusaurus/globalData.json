@@ -1,0 +1,62 @@
+{
+  "docusaurus-plugin-content-docs": {
+    "default": {
+      "path": "/docs",
+      "versions": [
+        {
+          "name": "current",
+          "label": "Next",
+          "isLast": true,
+          "path": "/docs",
+          "mainDocId": "start",
+          "docs": [
+            {
+              "id": "bosses",
+              "path": "/docs/bosses"
+            },
+            {
+              "id": "characters",
+              "path": "/docs/characters"
+            },
+            {
+              "id": "dungeons",
+              "path": "/docs/dungeons"
+            },
+            {
+              "id": "games",
+              "path": "/docs/games"
+            },
+            {
+              "id": "graphql",
+              "path": "/docs/graphql"
+            },
+            {
+              "id": "items",
+              "path": "/docs/items"
+            },
+            {
+              "id": "mdx",
+              "path": "/docs/mdx"
+            },
+            {
+              "id": "monsters",
+              "path": "/docs/monsters"
+            },
+            {
+              "id": "places",
+              "path": "/docs/places"
+            },
+            {
+              "id": "staff",
+              "path": "/docs/staff"
+            },
+            {
+              "id": "start",
+              "path": "/docs/"
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

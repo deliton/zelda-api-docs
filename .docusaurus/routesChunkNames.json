@@ -1,0 +1,136 @@
+{
+  "/-d7d": {
+    "component": "component---site-src-pages-index-jsece-a18",
+    "config": "config---5-e-9-4f3"
+  },
+  "/__docusaurus/debug-3d6": {
+    "component": "component---theme-debug-config-23-a-2ff"
+  },
+  "/__docusaurus/debug/config-914": {
+    "component": "component---theme-debug-config-23-a-2ff"
+  },
+  "/__docusaurus/debug/content-d12": {
+    "component": "component---theme-debug-contentba-8-ce7",
+    "allContent": "allContent---docusaurus-debug-content-4-c-9-f03"
+  },
+  "/__docusaurus/debug/globalData-3cf": {
+    "component": "component---theme-debug-global-dataede-0fa"
+  },
+  "/__docusaurus/debug/metadata-31b": {
+    "component": "component---theme-debug-site-metadata-68-e-3d4"
+  },
+  "/__docusaurus/debug/registry-0da": {
+    "component": "component---theme-debug-registry-679-501"
+  },
+  "/__docusaurus/debug/routes-244": {
+    "component": "component---theme-debug-routes-946-699"
+  },
+  "/blog-d1f": {
+    "component": "component---theme-blog-list-pagea-6-a-7ba",
+    "items": [
+      {
+        "content": "content---blog-064-529"
+      },
+      {
+        "content": "content---blog-366-ca3"
+      }
+    ],
+    "metadata": "metadata---blog-5-c-4-506"
+  },
+  "/blog/first-release-feb": {
+    "component": "component---theme-blog-post-pageccc-cab",
+    "content": "content---blog-first-release-297-af9"
+  },
+  "/blog/tags-929": {
+    "component": "component---theme-blog-tags-list-page-01-a-d0b",
+    "tags": "tags---blog-tags-995-4d3"
+  },
+  "/blog/tags/api-b46": {
+    "component": "component---theme-blog-tags-posts-page-687-b6c",
+    "items": [
+      {
+        "content": "content---blog-064-529"
+      },
+      {
+        "content": "content---blog-366-ca3"
+      }
+    ],
+    "metadata": "metadata---blog-tags-api-96-b-8d1"
+  },
+  "/blog/tags/documentation-b53": {
+    "component": "component---theme-blog-tags-posts-page-687-b6c",
+    "items": [
+      {
+        "content": "content---blog-064-529"
+      },
+      {
+        "content": "content---blog-366-ca3"
+      }
+    ],
+    "metadata": "metadata---blog-tags-documentation-86-c-50a"
+  },
+  "/blog/tags/release-325": {
+    "component": "component---theme-blog-tags-posts-page-687-b6c",
+    "items": [
+      {
+        "content": "content---blog-064-529"
+      },
+      {
+        "content": "content---blog-366-ca3"
+      }
+    ],
+    "metadata": "metadata---blog-tags-release-89-f-2b4"
+  },
+  "/blog/v1-release-91d": {
+    "component": "component---theme-blog-post-pageccc-cab",
+    "content": "content---blog-v-1-release-6-fb-420"
+  },
+  "/docs-98a": {
+    "component": "component---theme-doc-page-1-be-9be",
+    "versionMetadata": "versionMetadata---docsf-97-b71"
+  },
+  "/docs/-bc1": {
+    "component": "component---theme-doc-item-178-a40",
+    "content": "content---docs-619-0d1"
+  },
+  "/docs/bosses-78a": {
+    "component": "component---theme-doc-item-178-a40",
+    "content": "content---docs-bossesf-10-c65"
+  },
+  "/docs/characters-aff": {
+    "component": "component---theme-doc-item-178-a40",
+    "content": "content---docs-characters-022-f4e"
+  },
+  "/docs/dungeons-dd8": {
+    "component": "component---theme-doc-item-178-a40",
+    "content": "content---docs-dungeonsebd-90e"
+  },
+  "/docs/games-f38": {
+    "component": "component---theme-doc-item-178-a40",
+    "content": "content---docs-gamesc-4-f-25c"
+  },
+  "/docs/graphql-2f2": {
+    "component": "component---theme-doc-item-178-a40",
+    "content": "content---docs-graphql-754-005"
+  },
+  "/docs/items-cfc": {
+    "component": "component---theme-doc-item-178-a40",
+    "content": "content---docs-items-713-59a"
+  },
+  "/docs/mdx-155": {
+    "component": "component---theme-doc-item-178-a40",
+    "content": "content---docs-mdx-45-a-26c"
+  },
+  "/docs/monsters-a09": {
+    "component": "component---theme-doc-item-178-a40",
+    "content": "content---docs-monstersc-8-e-86e"
+  },
+  "/docs/places-ffe": {
+    "component": "component---theme-doc-item-178-a40",
+    "content": "content---docs-places-748-6f4"
+  },
+  "/docs/staff-76c": {
+    "component": "component---theme-doc-item-178-a40",
+    "content": "content---docs-staffd-37-fc7"
+  }
+}

@@ -1,0 +1,92 @@
+{
+  "version": "current",
+  "label": "Next",
+  "isLast": true,
+  "docsSidebars": {
+    "someSidebar": [
+      {
+        "collapsed": true,
+        "type": "category",
+        "label": "Info",
+        "items": [
+          {
+            "type": "link",
+            "label": "Getting Started",
+            "href": "/docs/"
+          }
+        ]
+      },
+      {
+        "collapsed": true,
+        "type": "category",
+        "label": "API",
+        "items": [
+          {
+            "type": "link",
+            "label": "Games",
+            "href": "/docs/games"
+          },
+          {
+            "type": "link",
+            "label": "Staff",
+            "href": "/docs/staff"
+          },
+          {
+            "type": "link",
+            "label": "Characters",
+            "href": "/docs/characters"
+          },
+          {
+            "type": "link",
+            "label": "Monsters",
+            "href": "/docs/monsters"
+          },
+          {
+            "type": "link",
+            "label": "Bosses",
+            "href": "/docs/bosses"
+          },
+          {
+            "type": "link",
+            "label": "Dungeons",
+            "href": "/docs/dungeons"
+          },
+          {
+            "type": "link",
+            "label": "Places",
+            "href": "/docs/places"
+          },
+          {
+            "type": "link",
+            "label": "Items",
+            "href": "/docs/items"
+          }
+        ]
+      },
+      {
+        "collapsed": true,
+        "type": "category",
+        "label": "GraphQL",
+        "items": [
+          {
+            "type": "link",
+            "label": "GraphQL",
+            "href": "/docs/graphql"
+          }
+        ]
+      }
+    ]
+  },
+  "permalinkToSidebar": {
+    "/docs/bosses": "someSidebar",
+    "/docs/characters": "someSidebar",
+    "/docs/dungeons": "someSidebar",
+    "/docs/games": "someSidebar",
+    "/docs/graphql": "someSidebar",
+    "/docs/items": "someSidebar",
+    "/docs/monsters": "someSidebar",
+    "/docs/places": "someSidebar",
+    "/docs/staff": "someSidebar",
+    "/docs/": "someSidebar"
+  }
+}

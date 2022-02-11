@@ -13,26 +13,26 @@ This route fetches a list of all the monsters that can be encountered in the Leg
 
 ```javascript
 {
-    "success": true,
-    "count": 1,
-    "data": [
-        {
-            "appearances": [
-                {
-                    "_id": "5f6ce9d805615a85623ec2c0",
-                    "name": "The Legend of Zelda: Oracle of Seasons"
-                },
-                {
-                    "_id": "5f6ce9d805615a85623ec2c9",
-                    "name": "The Legend of Zelda: Breath of the Wild"
-                }
-            ],
-            "_id": "5f6d1715a837149f8b47a1e3",
-            "name": "Golden Lynel",
-            "description": "Golden Lynels are recurring Enemies in...",
-            "__v": 0
-        }
-    ]
+	"success": true,
+	"count": 2,
+	"data": [
+		{
+			"appearances": [
+				"https://zelda.fanapis.com/api/games/5f6ce9d805615a85623ec2d5"
+			],
+			"name": "Abominom",
+			"description": "Abominoms  are enemies in the Philips CD-i game The Faces of Evil. ",
+			"id": "5f6d1715a837149f8b47a157"
+		},
+		{
+			"appearances": [
+				"https://zelda.fanapis.com/api/games/5f6ce9d805615a85623ec2ba"
+			],
+			"name": "Arwing",
+			"description": "Arwings are unused enemies in Ocarina of Time. ",
+			"id": "5f6d1715a837149f8b47a158"
+		}
+	]
 }
 ```
 
@@ -41,8 +41,8 @@ This route fetches a list of all the monsters that can be encountered in the Leg
 
 | METHOD        |      URL      |   DESCRIPTION |
 | ------------- | :-----------: | -----: |
-| `GET`         | https://zelda-api.apius.cc/api/monsters | This route retrieves a list of all the monsters of **The Legend of Zelda** games so far. |
-| `GET`         | https://zelda-api.apius.cc/api/monsters/:monster_id | This route retrieves one **The Legend of Zelda** monster using its ID. |
+| `GET`         | https://zelda.fanapis.com/api/monsters | This route retrieves a list of all the monsters of **The Legend of Zelda** games so far. |
+| `GET`         | https://zelda.fanapis.com/api/monsters/:monster_id | This route retrieves one **The Legend of Zelda** monster using its ID. |
 
 ## Parameters
 
@@ -50,6 +50,6 @@ This route supports the following parameters:
 
 | Parameter        |      default value      | Example URL |  DESCRIPTION |
 | ------------- | :-----------: | -----: |  -----: |
-| `limit`        | 20 | https://zelda-api.apius.cc/api/monsters?limit=100 | This parameter is used to set the maximum amount of items in the response |
-| `page`         | 0 | https://zelda-api.apius.cc/api/monsters?limit=20&page=3 | This parameter is used no navigate between pages of results |
-| `name`         | none | https://zelda-api.apius.cc/api/monsters?name=Bokoblin  | This parameter is used to search for monsters by their names |
+| `limit`        | 20 | https://zelda.fanapis.com/api/monsters?limit=100 | This parameter is used to set the maximum amount of items in the response |
+| `page`         | 0 | https://zelda.fanapis.com/api/monsters?limit=20&page=3 | This parameter is used no navigate between pages of results |
+| `name`         | none | https://zelda.fanapis.com/api/monsters?name=Bokoblin  | This parameter is used to search for monsters by their names |

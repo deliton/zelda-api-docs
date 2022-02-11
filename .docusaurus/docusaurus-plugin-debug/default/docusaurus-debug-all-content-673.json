@@ -1,0 +1,436 @@
+{
+  "docusaurus-plugin-content-docs": {
+    "default": {
+      "loadedVersions": [
+        {
+          "versionName": "current",
+          "versionLabel": "Next",
+          "versionPath": "/docs",
+          "isLast": true,
+          "routePriority": -1,
+          "sidebarFilePath": "C:\\Users\\delit\\Documents\\codes\\deliton\\zelda-api-docs\\sidebars.js",
+          "docsDirPath": "C:\\Users\\delit\\Documents\\codes\\deliton\\zelda-api-docs\\docs",
+          "mainDocId": "start",
+          "sidebars": {
+            "someSidebar": [
+              {
+                "collapsed": true,
+                "type": "category",
+                "label": "Info",
+                "items": [
+                  {
+                    "type": "doc",
+                    "id": "start"
+                  }
+                ]
+              },
+              {
+                "collapsed": true,
+                "type": "category",
+                "label": "API",
+                "items": [
+                  {
+                    "type": "doc",
+                    "id": "games"
+                  },
+                  {
+                    "type": "doc",
+                    "id": "staff"
+                  },
+                  {
+                    "type": "doc",
+                    "id": "characters"
+                  },
+                  {
+                    "type": "doc",
+                    "id": "monsters"
+                  },
+                  {
+                    "type": "doc",
+                    "id": "bosses"
+                  },
+                  {
+                    "type": "doc",
+                    "id": "dungeons"
+                  },
+                  {
+                    "type": "doc",
+                    "id": "places"
+                  },
+                  {
+                    "type": "doc",
+                    "id": "items"
+                  }
+                ]
+              },
+              {
+                "collapsed": true,
+                "type": "category",
+                "label": "GraphQL",
+                "items": [
+                  {
+                    "type": "doc",
+                    "id": "graphql"
+                  }
+                ]
+              }
+            ]
+          },
+          "permalinkToSidebar": {
+            "/docs/bosses": "someSidebar",
+            "/docs/characters": "someSidebar",
+            "/docs/dungeons": "someSidebar",
+            "/docs/games": "someSidebar",
+            "/docs/graphql": "someSidebar",
+            "/docs/items": "someSidebar",
+            "/docs/monsters": "someSidebar",
+            "/docs/places": "someSidebar",
+            "/docs/staff": "someSidebar",
+            "/docs/": "someSidebar"
+          },
+          "docs": [
+            {
+              "unversionedId": "bosses",
+              "id": "bosses",
+              "isDocsHomePage": false,
+              "title": "Bosses Route",
+              "description": "Introduction",
+              "source": "@site/docs\\bosses.md",
+              "slug": "/bosses",
+              "permalink": "/docs/bosses",
+              "version": "current",
+              "sidebar_label": "Bosses",
+              "sidebar": "someSidebar",
+              "previous": {
+                "title": "Monsters Route",
+                "permalink": "/docs/monsters"
+              },
+              "next": {
+                "title": "Dungeons Route",
+                "permalink": "/docs/dungeons"
+              }
+            },
+            {
+              "unversionedId": "characters",
+              "id": "characters",
+              "isDocsHomePage": false,
+              "title": "Characters Route",
+              "description": "Introduction",
+              "source": "@site/docs\\characters.md",
+              "slug": "/characters",
+              "permalink": "/docs/characters",
+              "version": "current",
+              "sidebar_label": "Characters",
+              "sidebar": "someSidebar",
+              "previous": {
+                "title": "Staff Route",
+                "permalink": "/docs/staff"
+              },
+              "next": {
+                "title": "Monsters Route",
+                "permalink": "/docs/monsters"
+              }
+            },
+            {
+              "unversionedId": "dungeons",
+              "id": "dungeons",
+              "isDocsHomePage": false,
+              "title": "Dungeons Route",
+              "description": "Introduction",
+              "source": "@site/docs\\dungeons.md",
+              "slug": "/dungeons",
+              "permalink": "/docs/dungeons",
+              "version": "current",
+              "sidebar_label": "Dungeons",
+              "sidebar": "someSidebar",
+              "previous": {
+                "title": "Bosses Route",
+                "permalink": "/docs/bosses"
+              },
+              "next": {
+                "title": "Places Route",
+                "permalink": "/docs/places"
+              }
+            },
+            {
+              "unversionedId": "games",
+              "id": "games",
+              "isDocsHomePage": false,
+              "title": "Games Route",
+              "description": "Introduction",
+              "source": "@site/docs\\games.md",
+              "slug": "/games",
+              "permalink": "/docs/games",
+              "version": "current",
+              "sidebar_label": "Games",
+              "sidebar": "someSidebar",
+              "previous": {
+                "title": "Getting Started",
+                "permalink": "/docs/"
+              },
+              "next": {
+                "title": "Staff Route",
+                "permalink": "/docs/staff"
+              }
+            },
+            {
+              "unversionedId": "graphql",
+              "id": "graphql",
+              "isDocsHomePage": false,
+              "title": "GraphQL Endpoint",
+              "description": "That's it, we support GraphQL out of the box now. Just go to https://zelda.fanapis.com/api/graphql and use the Apollo GraphQL sandbox. By using GraphQL you have access to all of its schema and resolvers, so it should be easy to explore on your own. Below, we'll see a few examples using the new GraphQL endpoint.",
+              "source": "@site/docs\\graphql.md",
+              "slug": "/graphql",
+              "permalink": "/docs/graphql",
+              "version": "current",
+              "sidebar_label": "GraphQL",
+              "sidebar": "someSidebar",
+              "previous": {
+                "title": "Items Route",
+                "permalink": "/docs/items"
+              }
+            },
+            {
+              "unversionedId": "items",
+              "id": "items",
+              "isDocsHomePage": false,
+              "title": "Items Route",
+              "description": "Introduction",
+              "source": "@site/docs\\items.md",
+              "slug": "/items",
+              "permalink": "/docs/items",
+              "version": "current",
+              "sidebar_label": "Items",
+              "sidebar": "someSidebar",
+              "previous": {
+                "title": "Places Route",
+                "permalink": "/docs/places"
+              },
+              "next": {
+                "title": "GraphQL Endpoint",
+                "permalink": "/docs/graphql"
+              }
+            },
+            {
+              "unversionedId": "mdx",
+              "id": "mdx",
+              "isDocsHomePage": false,
+              "title": "Powered by MDX",
+              "description": "You can write JSX and use React components within your Markdown thanks to MDX.",
+              "source": "@site/docs\\mdx.md",
+              "slug": "/mdx",
+              "permalink": "/docs/mdx",
+              "version": "current"
+            },
+            {
+              "unversionedId": "monsters",
+              "id": "monsters",
+              "isDocsHomePage": false,
+              "title": "Monsters Route",
+              "description": "Introduction",
+              "source": "@site/docs\\monsters.md",
+              "slug": "/monsters",
+              "permalink": "/docs/monsters",
+              "version": "current",
+              "sidebar_label": "Monsters",
+              "sidebar": "someSidebar",
+              "previous": {
+                "title": "Characters Route",
+                "permalink": "/docs/characters"
+              },
+              "next": {
+                "title": "Bosses Route",
+                "permalink": "/docs/bosses"
+              }
+            },
+            {
+              "unversionedId": "places",
+              "id": "places",
+              "isDocsHomePage": false,
+              "title": "Places Route",
+              "description": "Introduction",
+              "source": "@site/docs\\places.md",
+              "slug": "/places",
+              "permalink": "/docs/places",
+              "version": "current",
+              "sidebar_label": "Places",
+              "sidebar": "someSidebar",
+              "previous": {
+                "title": "Dungeons Route",
+                "permalink": "/docs/dungeons"
+              },
+              "next": {
+                "title": "Items Route",
+                "permalink": "/docs/items"
+              }
+            },
+            {
+              "unversionedId": "staff",
+              "id": "staff",
+              "isDocsHomePage": false,
+              "title": "Staff Route",
+              "description": "Introduction",
+              "source": "@site/docs\\staff.md",
+              "slug": "/staff",
+              "permalink": "/docs/staff",
+              "version": "current",
+              "sidebar_label": "Staff",
+              "sidebar": "someSidebar",
+              "previous": {
+                "title": "Games Route",
+                "permalink": "/docs/games"
+              },
+              "next": {
+                "title": "Characters Route",
+                "permalink": "/docs/characters"
+              }
+            },
+            {
+              "unversionedId": "start",
+              "id": "start",
+              "isDocsHomePage": false,
+              "title": "Getting Started",
+              "description": "The Zelda API is a cool open source API that provides information about the greatest game franchise out there: The Legend of Zelda. In this section you will be guided with basics steps on how to properly use this API. This API is open, so it doesn't require an API key to use it. Also, please give us a star on our official github repository and feel free to post issues there.",
+              "source": "@site/docs\\start.md",
+              "slug": "/",
+              "permalink": "/docs/",
+              "version": "current",
+              "sidebar_label": "Getting Started",
+              "sidebar": "someSidebar",
+              "next": {
+                "title": "Games Route",
+                "permalink": "/docs/games"
+              }
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "docusaurus-plugin-content-blog": {
+    "default": {
+      "blogPosts": [
+        {
+          "id": "v1-release",
+          "metadata": {
+            "permalink": "/blog/v1-release",
+            "source": "@site/blog\\2022-02-11-v1-is-here.md",
+            "description": "A new release!",
+            "date": "2022-02-11T00:00:00.000Z",
+            "tags": [
+              {
+                "label": "release",
+                "permalink": "/blog/tags/release"
+              },
+              {
+                "label": "documentation",
+                "permalink": "/blog/tags/documentation"
+              },
+              {
+                "label": "api",
+                "permalink": "/blog/tags/api"
+              }
+            ],
+            "title": "A new version of Zelda API is up!",
+            "readingTime": 1.075,
+            "truncated": false,
+            "nextItem": {
+              "title": "The first release is here!",
+              "permalink": "/blog/first-release"
+            }
+          }
+        },
+        {
+          "id": "first-release",
+          "metadata": {
+            "permalink": "/blog/first-release",
+            "source": "@site/blog\\2020-09-27-alpha-release.md",
+            "description": "I'm proud to announce that our 0.0.2 alpha version of Zelda API is here! Many things still need to be fixed so stay tuned for the upcoming releases.",
+            "date": "2020-09-27T00:00:00.000Z",
+            "tags": [
+              {
+                "label": "release",
+                "permalink": "/blog/tags/release"
+              },
+              {
+                "label": "documentation",
+                "permalink": "/blog/tags/documentation"
+              },
+              {
+                "label": "api",
+                "permalink": "/blog/tags/api"
+              }
+            ],
+            "title": "The first release is here!",
+            "readingTime": 0.14,
+            "truncated": false,
+            "prevItem": {
+              "title": "A new version of Zelda API is up!",
+              "permalink": "/blog/v1-release"
+            }
+          }
+        }
+      ],
+      "blogListPaginated": [
+        {
+          "metadata": {
+            "permalink": "/blog",
+            "page": 1,
+            "postsPerPage": 10,
+            "totalPages": 1,
+            "totalCount": 2,
+            "previousPage": null,
+            "nextPage": null,
+            "blogDescription": "Blog"
+          },
+          "items": [
+            "v1-release",
+            "first-release"
+          ]
+        }
+      ],
+      "blogTags": {
+        "release": {
+          "name": "release",
+          "items": [
+            "v1-release",
+            "first-release"
+          ],
+          "permalink": "/blog/tags/release"
+        },
+        "documentation": {
+          "name": "documentation",
+          "items": [
+            "v1-release",
+            "first-release"
+          ],
+          "permalink": "/blog/tags/documentation"
+        },
+        "api": {
+          "name": "api",
+          "items": [
+            "v1-release",
+            "first-release"
+          ],
+          "permalink": "/blog/tags/api"
+        }
+      },
+      "blogTagsListPath": "/blog/tags"
+    }
+  },
+  "docusaurus-plugin-content-pages": {
+    "default": [
+      {
+        "type": "jsx",
+        "permalink": "/",
+        "source": "@site/src\\pages\\index.js"
+      }
+    ]
+  },
+  "docusaurus-plugin-debug": {
+    "default": null
+  },
+  "docusaurus-theme-classic": {
+    "default": null
+  }
+}
